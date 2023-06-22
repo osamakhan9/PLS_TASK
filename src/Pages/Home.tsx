@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Container, Box, Flex, Text, Button, Paper } from "@mantine/core";
 import { IconArrowRight } from "@tabler/icons-react";
 
@@ -33,8 +33,10 @@ function Home() {
   const getData = async () => {
     try {
       const res = await fetch("https://pls-backend.onrender.com/data");
+
       const data = await res.json();
       setData(data);
+      
     } catch (error) {
       console.error("Error:", error);
     }

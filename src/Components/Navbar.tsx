@@ -18,6 +18,7 @@ function Navbar() {
             size={50}
             radius="xl"
           />
+
           <div>
             <Flex gap={10}>
               <Text fz="xs" fw={700}>
@@ -34,6 +35,7 @@ function Navbar() {
         </Group>
       </Flex>
     </Header>
+    
   );
 }
 

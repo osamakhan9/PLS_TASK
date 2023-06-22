@@ -8,7 +8,9 @@ const middlewares = jsonServer.defaults();
 
 server.use(cors());
 server.use(jsonServer.bodyParser);
+
 server.use(middlewares);
+
 server.use(router);
 
 const PORT = 8000;

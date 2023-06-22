@@ -9,6 +9,7 @@ function Sidebar() {
           borderLeft: "2px solid #E4C441",
           borderRadius: " 0px 10px 10px 0px",
         }}
+        
       >
         Company Details
       </h5>

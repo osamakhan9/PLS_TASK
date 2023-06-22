@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "CI": {
+        "OC": "Pro Legal Serve",
+        "CT": "B2B",
+        "Lb": "Flesh"
+      },
+
+      "address1": {
+        "type": "Company Address",
+        "state": "State",
+        "city": "City",
+        "country": "Country",
+        "zip": "Zip Code",
+        "phone": 1234567890
+      },
+
+      "LI": {
+        "S": "Family Firm",
+        "C": "Server Manger",
+        "A": "Account Manager"
+      },
+
+      "CS": {
+        "newUserInvited": "Email",
+        "newUserAdded": "Email",
+        "paymentMethodChanged": "Email"
+      }
+    }
+  ]
+}
